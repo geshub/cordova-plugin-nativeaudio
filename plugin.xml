@@ -37,7 +37,7 @@
 	    <!-- android 13 compatibility -->
 	    <config-file target="AndroidManifest.xml" parent="/*">
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" tools:node="replace"/>
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
        </config-file>
 
